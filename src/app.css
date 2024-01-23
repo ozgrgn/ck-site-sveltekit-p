@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+	--primary: #064663;
+	--secondary: #08597f;
+
+	--font-family: 'Quicksand', sans-serif;
+	--font-family2: 'DM Sans', sans-serif;
+}
+
+html {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing:antialiased;
+	scroll-behavior: smooth;
+
+
+}
+body {
+	font-family: var(--font-family);
+}
+h2 {
+	font-family: var(--font-family);
+}
+p,
+button,
+h4 {
+	font-family: var(--font-family2);
+}
+p span {
+	font-family: var(--font-family);
+}
+a {
+	cursor: pointer;
+}
